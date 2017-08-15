@@ -86,4 +86,4 @@ let MovieImage = React.createClass({
 	}
 })
 let movieContainer = React.createElement(MoviesList, {allMovies: movies} )
-ReactDOM.render(MovieContainer, document.getElementById('app'));
+ReactDOM.render(movieContainer, document.getElementById('app'));
